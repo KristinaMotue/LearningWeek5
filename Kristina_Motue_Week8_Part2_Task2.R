@@ -1,0 +1,7 @@
+Name <- c("Victoria", "Martin", "Peter", "Samantha", "Leah")
+Age <- c("51", "36", "43", "25", "33")
+Gender <-c("female", "male", "male", "female", "female") 
+Role <- c("Biomedical scientist", "Laboratory technician", "Immunologist", "Laboratory cleaner", "Data scientist")
+Length_of_service <-c("27", "10", "18", "7", "5") 
+employees <- data.frame(Name, Age, Gender, Role, Length_of_service)
+print(employees)

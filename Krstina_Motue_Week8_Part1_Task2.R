@@ -1,0 +1,6 @@
+barcode <- readline("Enter the barcode:")
+product <- readline("Enter the product name:")
+category <- readline("Enter the category:")
+price <- readline("Enter the price:")
+info <- list(barcode, product, category, price)
+print(info)
